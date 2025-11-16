@@ -1,0 +1,151 @@
+############################
+# OS FILES
+############################
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon?
+._*
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+############################
+# GENERAL EDITOR / IDE
+############################
+
+# VSCode
+.vscode/
+.code-workspace
+
+# JetBrains
+.idea/
+*.iml
+
+# Sublime
+*.sublime-workspace
+*.sublime-project
+
+# Vim
+*.swp
+*.swo
+
+# Emacs
+*~
+\#*\#
+.\#*
+
+############################
+# NODE / JAVASCRIPT / TYPESCRIPT
+############################
+
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-store/
+dist/
+build/
+.next/
+.nuxt/
+out/
+
+############################
+# PYTHON
+############################
+
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+.eggs/
+.venv/
+venv/
+
+############################
+# RUBY / RAILS
+############################
+
+.bundle/
+vendor/bundle/
+log/*.log
+tmp/
+coverage/
+db/*.sqlite3
+db/*.sqlite3-journal
+
+############################
+# JAVA
+############################
+
+*.class
+*.jar
+*.war
+*.ear
+target/
+build/
+
+############################
+# GO
+############################
+
+bin/
+pkg/
+*.exe
+
+############################
+# C / C++ BUILD OUTPUT
+############################
+
+*.o
+*.obj
+*.so
+*.dll
+*.exe
+*.out
+
+############################
+# DOTNET / C#
+############################
+
+bin/
+obj/
+*.user
+*.suo
+
+############################
+# DOCKER / K8s / INFRA
+############################
+
+.docker/
+**/.terraform/
+terraform.tfstate
+terraform.tfstate.backup
+*.tfvars
+
+############################
+# ENVIRONMENT / SECRETS
+############################
+
+.env
+.env.*
+*.pem
+*.key
+*.crt
+
+############################
+# MISC
+############################
+
+*.log
+*.tmp
+*.cache
+.cache/
+logs/
+coverage/
